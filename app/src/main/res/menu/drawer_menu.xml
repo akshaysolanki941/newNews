@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home_black_48"></item>
+
+        <item android:id="@+id/nav_entertainment"
+            android:title="Entertainment"
+            android:icon="@drawable/baseline_insert_emoticon_black_48"></item>
+
+        <item android:id="@+id/nav_science"
+            android:title="Science"
+            android:icon="@drawable/baseline_settings_input_antenna_black_48"></item>
+
+        <item android:id="@+id/nav_sports"
+            android:title="Sports"
+            android:icon="@drawable/baseline_directions_run_black_48"></item>
+
+        <item android:id="@+id/nav_technology"
+            android:title="Technology"
+            android:icon="@drawable/baseline_devices_other_black_48"></item>
+
+        <item android:id="@+id/nav_health"
+            android:title="Health"
+            android:icon="@drawable/baseline_visibility_black_48"></item>
+
+        <item android:id="@+id/nav_business"
+            android:title="Business"
+            android:icon="@drawable/baseline_attach_money_black_48"></item>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:id="@+id/nav_setting"
+            android:title="Settings"
+            android:icon="@drawable/setting"></item>
+
+        <item android:id="@+id/nav_about"
+            android:title="About Me"
+            android:icon="@drawable/about"></item>
+    </group>
+
+</menu>
